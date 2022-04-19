@@ -100,13 +100,10 @@ header .header__burguerMenu {
     box-shadow: 5px 2px 1px gray;
     position: relative;
   }
-  
-  
   header #header__menu--itemGallery ul {
     flex-direction: column;
     border-radius: 5px;
   }
-  
   header #header__menu--itemGallery ul li a {
     color: rgb(160, 160, 160);
     text-transform: capitalize;
@@ -115,27 +112,9 @@ header .header__burguerMenu {
   header .header__menu ul li a {
     text-decoration: none;
 }
-@keyframes carousel-slide {
-  0% {
-      transform: translateX(0%); 
-  }
-
-  25% {
-      transform: translateX(-25%);    
-  }
-
-  50% {
-      transform: translateX(-50%);
-  }
-
-  75% {
-      transform: translateX(-75%);
-  }
-}
-
 .carousel {
-  margin: 2rem auto;
-  padding: 2rem 0;
+  margin: auto;
+  padding: 2rem 2rem;
   max-width: 400px;
   text-align: center;
   background-color: var(--carousel-bg-color);
@@ -150,54 +129,6 @@ box-shadow: 0px 1px 1px grey;
 .carousel img:hover{
     transform: scale(1.1);
     transition: 0.5s;
-
-}
-.carousel .slides {
-  padding-left: 0;
-  /* 100% por cada slide */
-  width: 200%;
-  display: flex;
-  list-style: none;
-  transition: transform .5s ease-in-out;
-  animation: carousel-slide 10s ease-in-out 3s;
-  animation-iteration-count: infinite;
-}
-
-.carousel input {
-  display: none;
-}
-
-.carousel label {
-  border: medium solid var(--gray-dark-color);
-  border-radius: 50%;
-  cursor: pointer;
-  margin: 0 .25rem;
-  display: inline-block;
-  width: .75rem;
-  height: .75rem;
-}
-
-#slide-1:checked ~ .slides {
-  transform: translateX(0%);
-}
-
-#slide-2:checked ~ .slides {
-  transform: translateX(-25%);
-}
-
-#slide-3:checked ~ .slides {
-  transform: translateX(-50%);
-}
-
-#slide-4:checked ~ .slides {
-  transform: translateX(-75%);
-}
-
-#slide-1:checked ~ .slides-nav label#dot-1,
-#slide-2:checked ~ .slides-nav label#dot-2,
-#slide-3:checked ~ .slides-nav label#dot-3,
-#slide-4:checked ~ .slides-nav label#dot-4 {
-  background-color: var(--gray-dark-color);
 }
   /* +++++++++++++++++> */
   /* FIN CAROUSEL */
@@ -206,12 +137,9 @@ box-shadow: 0px 1px 1px grey;
   font-size: 30px;
   box-shadow: 0px 0.5px 20px grey;
   border-radius: 20px;
-
 }
 .slide a:hover{
   background-color: bisque;
-
-
 }
 
   
@@ -270,32 +198,13 @@ box-shadow: 0px 1px 1px grey;
       padding: 10px 10px 10px 10px;
       border-radius: 10px;
     }
-    
-  
-    @keyframes carousel-slide {
-      0% {
-          transform: translateX(0%); 
-      }
-    
-      25% {
-          transform: translateX(-25%);    
-      }
-    
-      50% {
-          transform: translateX(-50%);
-      }
-    
-      75% {
-          transform: translateX(-75%);
-      }
-    }
     .carousel {
       margin: 2rem auto;
       padding: 2rem 0;
-      max-width: 1200px;
-      text-align: center;
+      max-width: 600px;
+      height: 600px;
       background-color: var(--carousel-bg-color);
-      overflow-x: hidden;
+
     }
     .carousel img{
     width: 300px;
@@ -306,56 +215,12 @@ box-shadow: 0px 1px 1px grey;
     .carousel img:hover{
         transform: scale(1.1);
         transition: 0.5s;
+    }
+ 
+    
+   
+    
   
-    }
-    .carousel .slides {
-      padding-left: 0;
-      /* 100% por cada slide */
-      width: 200%;
-      display: flex;
-      list-style: none;
-      transition: transform .5s ease-in-out;
-      animation: carousel-slide 10s ease-in-out 3s;
-      animation-iteration-count: infinite;
-    }
-    
-    .carousel input {
-      display: none;
-    }
-    
-    .carousel label {
-      border: medium solid var(--gray-dark-color);
-      border-radius: 50%;
-      cursor: pointer;
-      margin: 0 .25rem;
-      display: inline-block;
-      width: .75rem;
-      height: .75rem;
-    }
-    
-    #slide-1:checked ~ .slides {
-      transform: translateX(0%);
-    }
-    
-    #slide-2:checked ~ .slides {
-      transform: translateX(-25%);
-    }
-    
-    #slide-3:checked ~ .slides {
-      transform: translateX(-50%);
-    }
-    
-    #slide-4:checked ~ .slides {
-      transform: translateX(-75%);
-    }
-    
-    #slide-1:checked ~ .slides-nav label#dot-1,
-    #slide-2:checked ~ .slides-nav label#dot-2,
-    #slide-3:checked ~ .slides-nav label#dot-3,
-    #slide-4:checked ~ .slides-nav label#dot-4 {
-      background-color: var(--gray-dark-color);
-    }
-
     /* +++++++++++++++++> */
   /* FIN CAROUSEL */
 
