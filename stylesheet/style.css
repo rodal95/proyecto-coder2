@@ -132,16 +132,6 @@ box-shadow: 0px 1px 1px grey;
 }
   /* +++++++++++++++++> */
   /* FIN CAROUSEL */
-.slide a{
-  text-decoration: none;
-  font-size: 30px;
-  box-shadow: 0px 0.5px 20px grey;
-  border-radius: 20px;
-}
-.slide a:hover{
-  background-color: bisque;
-}
-
   
   /* Media queries INDEX--------------------------------------------------------------*/
   
@@ -150,33 +140,27 @@ box-shadow: 0px 1px 1px grey;
     header .header__burguerMenu {
       display: none;
     }
-  
     header .header__menu .header__closeMenu {
       display: none;
     }
-  
     header .header__menu {
       display: flex;
       position: inherit;
      
     }
-  
     header .header__menu ul {
       flex-direction: row;
       justify-content: space-evenly;
     }
-  
     header #header__menu--itemGallery {
       position: relative;
     }
-  
     #header__menu--itemGallery:hover > ul {
       display: flex;
     }
     header .header__menu ul li a {
         text-decoration: none;
     }
-    
     header #header__menu--itemGallery ul {
      display: none;
      position: absolute;
@@ -191,18 +175,20 @@ box-shadow: 0px 1px 1px grey;
       width: 80%;
       height: 80%;
       box-shadow: 0px 0.5px 10px white;
-      margin-left: 300px;
-      margin-top: 30px;
+      margin-left: auto;
+      margin-right: auto;
       margin-bottom: 30px;
       background-image: linear-gradient(to right, white, lightblue);
       padding: 10px 10px 10px 10px;
       border-radius: 10px;
     }
+
+
     .carousel {
       margin: 2rem auto;
       padding: 2rem 0;
       max-width: 600px;
-      height: 600px;
+      height: 400px;
       background-color: var(--carousel-bg-color);
 
     }
@@ -217,9 +203,6 @@ box-shadow: 0px 1px 1px grey;
         transition: 0.5s;
     }
  
-    
-   
-    
   
     /* +++++++++++++++++> */
   /* FIN CAROUSEL */
@@ -239,8 +222,8 @@ body{
   background-image: linear-gradient(to right, white, lightblue);
   padding: 10px 10px 10px;
   border-radius: 10px;
-  margin-left: 50px;
-  margin-right: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /* GALERY---------------------------------------------------------- */
 
@@ -289,7 +272,8 @@ body{
 .galery_fotos{
   width: 80%;
   height: 80%;
-  margin-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 10px 10px 10px grey;
   background-image: linear-gradient(to right, white, lightblue);
 
@@ -302,8 +286,8 @@ body{
   background-image: linear-gradient(to right, white, lightblue);
   padding: 10px 10px 10px;
   border-radius: 10px;
-  margin-left: 50px;
-  margin-right: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .tablaabout tr td{
   display: flex;
@@ -348,7 +332,8 @@ body{
   width: 80%;
   height: 80%;
   box-shadow: 0px 0.5px 10px grey;
-  margin-left: 50px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(to right, white, lightblue);
 }
 .contact_form{
