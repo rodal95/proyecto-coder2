@@ -216,6 +216,10 @@ body{
   border-bottom: 2px solid;
   margin-bottom: 10px;
   box-shadow: 1px 0px;
+  border-radius: 20%;
+}
+.nav-item:hover{
+  background-color: aqua;
 }
 @media screen and (min-width: 768px) {
   .tablaabout tr td{
