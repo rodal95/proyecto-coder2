@@ -40,7 +40,7 @@
                       <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contacto</a>
                       </li>
-                      <a class="nav-link" href="./pages/tiend.html">Tienda</a>
+                      <a class="nav-link" href="tiend.html">Tienda</a>
                       </li>
                       <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -61,16 +61,33 @@
 
         <!-- __________________________________MAIN________________________________________________________ -->
         <main class="contact_main"> 
-            <form action="" class="contact_form">
+            <form class="contact_form">
                 <h2>Escríbeme</h2>
-                <input type="text" name="nombre" placeholder="Nombre*" required>
-                <input type="text" name="apellido" placeholder="Apellido*" required>
-                <input type="email" name="email" placeholder="Email*" required>
-                <textarea name="mensaje" placeholder="Mensaje" cols="30" rows="10"></textarea>
-                <div class="form_buttons">
-                  <button type="reset" class="button button__reset">Limpiar</button>
-                  <button type="submit" class="button buttton__submit">Enviar</button>
+                <div class="row g-3">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                  </div>
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                  </div>
                 </div>
+                <div class="row g-3">
+                  <div class="col">
+                    <input type="email" class="form-control" placeholder="E-mail" aria-label="E-mail">
+                  </div>
+                  <div class="col">
+                    <input type="number" class="form-control" placeholder="Telefono" aria-label="Last name">
+                  </div>
+                </div>
+                <div class="form-floating">
+                  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2"></label>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                  <button type="clean" class="btn btn-primary">Limpiar</button>
+                </div>
+                
             </form>
             <section class="maps_contact">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14488.552914548454!2d-65.41634225!3d-24.790719850000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1649486207264!5m2!1ses!2sar" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps_contact"></iframe>

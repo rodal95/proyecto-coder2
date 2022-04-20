@@ -327,6 +327,7 @@ body{
   display: grid;
   justify-content: center;
   align-items: center;
+  padding: 15px;
 }
 .contact_main{
   width: 80%;
@@ -521,4 +522,12 @@ body{
   
   }
 }
+.main_tienda img{
+  height: 200px;
+}
 
+@media screen and (min-width: 768px) {
+  #home{
+    display: flex;
+  }
+}
