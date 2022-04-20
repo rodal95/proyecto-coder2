@@ -212,6 +212,11 @@ body{
   border-radius: 20%;
   
 }
+.nav-item{
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+  box-shadow: 1px 0px;
+}
 @media screen and (min-width: 768px) {
   .tablaabout tr td{
     display: flex;
@@ -230,6 +235,7 @@ body{
     border-radius: 20%;
     
   }
+
 }
 
 /* CONTAC ------------------------------------------------------- */
