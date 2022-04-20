@@ -466,62 +466,17 @@ body{
   margin-left: 50px;
   background-image: linear-gradient(to right, white, lightblue);
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.main_tienda ul {
-  list-style: none;
-  
-}
-.items_tienda{
-  margin-bottom: 15rem;
-}
-.items{
-  margin-left: 20px;
-}
-.titulo_tabla{
-  display: none;
-}
-.tabla{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  table-layout: fixed;
-  width: 300px;
-}
-.tablacurso{
-  display: none;
-  flex-direction: row;
-  border: 10px solid black;
-  background-color: bisque;
-  position: relative;
 
-}
 .dia{
   font-weight: bold;
 }
 .hora{
   font-weight: bold;
 }
-@media screen and (min-width: 768px) {
-  .tabla{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    table-layout: fixed;
-    width: 600px;
-  }
-  .titulo_tabla{
-    display:contents;
-  }
-  .tablacurso{
-    display: flex;
-    flex-direction: row;
-    border: 10px solid black;
-    background-color: bisque;
-    position: relative;
-    border-spacing: 10px 10px;
-  
-  }
-}
+
 .main_tienda img{
   height: 200px;
 }
@@ -532,14 +487,16 @@ body{
 #home{
   margin-bottom: 500px;
 }
-
+/* tienda queries */
 @media screen and (min-width: 768px) {
   #home{
     display: flex;
-    margin-bottom: 500px;
-   
-  }
+    margin-bottom: 500px;  }
   .accordion{
     margin-top:-900px;
-    margin-bottom: 500px;
+    margin-bottom: 500px;}
+  #contact{
+    margin-top: -900px;
+    margin-bottom: 800px;}
 }
+
