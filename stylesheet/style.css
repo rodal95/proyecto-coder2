@@ -397,6 +397,14 @@ body{
 #home{
   margin-bottom: 500px;
 }
+#home img{
+  width: 200px;
+  height: 200px;
+
+}
+.card{
+  width: 250px;
+}
 /* tienda queries */
 @media screen and (min-width: 768px) {
   #home{
@@ -408,5 +416,10 @@ body{
   #contact{
     margin-top: -900px;
     margin-bottom: 800px;}
+    #home img{
+      width: auto;
+      height: 300px;
+    
+    }
 }
 
