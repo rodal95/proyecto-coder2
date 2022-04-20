@@ -417,11 +417,11 @@ body{
     display: flex;
     margin-bottom: 500px;  }
   .accordion{
-    margin-top:-900px;
+    margin-top:-1000px;
     margin-bottom: 500px;}
   #contact{
-    margin-top: -900px;
-    margin-bottom: 800px;}
+    margin-top: -1000px;
+    margin-bottom: 500px;}
     #home img{
       width: auto;
       height: 300px;
