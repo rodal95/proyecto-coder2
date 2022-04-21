@@ -228,7 +228,7 @@ body{
     border-radius: 20%;
     
   }
-
+ 
 }
 
 /* CONTAC ------------------------------------------------------- */
@@ -386,15 +386,20 @@ body{
   height: 200px;
 }
 .accordion{
-  align-content: center;
-  margin-bottom: 500px;
+  margin-top:-5px;
+    margin-bottom: 500px;
+  }
 }
 #home{
   margin-bottom: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 #home img{
-  width: 200px;
+  width: auto;
   height: 200px;
+  justify-content: center;
 
 }
 .card{
@@ -404,10 +409,16 @@ body{
 @media screen and (min-width: 768px) {
   #home{
     display: flex;
-    margin-bottom: 500px;  }
+    flex-direction: row;
+    margin-bottom: 500px;  
+    justify-content: space-around;
+  }
   .accordion{
-    margin-top:-1000px;
-    margin-bottom: 500px;}
+    display: flex;
+    flex-direction: column;
+    margin-top: -1000px;
+    
+  }
   #contact{
     margin-top: -1000px;
     margin-bottom: 500px;}
