@@ -199,17 +199,12 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
-.tablaabout tr td{
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  text-align: center;
-  margin-top: 20px;
-}
-.tablaabout img{
-  width: 150px;
-  height: 150px;
+.container img{
+  width: 250px;
+  height: 250px;
   border-radius: 20%;
+  
+}
   
 }
 .nav-item{
@@ -222,18 +217,12 @@ body{
   background-color: aqua;
 }
 @media screen and (min-width: 768px) {
-  .tablaabout tr td{
-    display: flex;
-    flex-direction: row;
-    justify-items: center;
-    text-align: center;
-    margin-top: 20px;
-  }
+  
   .video{
     width: 600px;
     height: 450px;
   }
-  .tablaabout img{
+  .container img{
     width: 300px;
     height: 300px;
     border-radius: 20%;
@@ -324,10 +313,6 @@ body{
   }
 }
   
-
-
-
-
 .container_mediosdepago{
     display: flex;
     flex-direction: row;
