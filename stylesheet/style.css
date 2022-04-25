@@ -46,41 +46,6 @@ box-shadow: 0px 1px 1px grey;
   /* Media queries INDEX--------------------------------------------------------------*/
   
   @media screen and (min-width: 768px) {
-  
-    header .header__burguerMenu {
-      display: none;
-    }
-    header .header__menu .header__closeMenu {
-      display: none;
-    }
-    header .header__menu {
-      display: flex;
-      position: inherit;
-     
-    }
-    header .header__menu ul {
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
-    header #header__menu--itemGallery {
-      position: relative;
-    }
-    #header__menu--itemGallery:hover > ul {
-      display: flex;
-    }
-    header .header__menu ul li a {
-        text-decoration: none;
-    }
-    header #header__menu--itemGallery ul {
-     display: none;
-     position: absolute;
-     left: 0;
-     padding: 1rem;
-     width: 8rem;
-     height: 9rem;
-     background-color: rgb(250, 250, 250);
-     border-radius: 5px;
-    }
      .index_main{
       width: 80%;
       height: 80%;
@@ -92,8 +57,6 @@ box-shadow: 0px 1px 1px grey;
       padding: 10px 10px 10px 10px;
       border-radius: 10px;
     }
-
-
     .carousel {
       margin: 2rem auto;
       padding: 2rem 0;
@@ -118,12 +81,9 @@ box-shadow: 0px 1px 1px grey;
   /* FIN CAROUSEL */
 
 }
-  
-
 body{
   background-image: radial-gradient(grey,white);
   align-items: center;
-
 }
 .index_main{
   width: 80%;
@@ -136,7 +96,6 @@ body{
   margin-right: auto;
 }
 /* GALERY---------------------------------------------------------- */
-
 .galery_section{
   min-height: 100px;
   margin: 10px 10px;
@@ -144,9 +103,7 @@ body{
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   display: grid;
   grid-template-columns: 1fr 1fr;
-
 }
-
 .galery_titulo{
   grid-area: titulo;
   text-align: center;
@@ -186,7 +143,6 @@ body{
   margin-right: auto;
   box-shadow: 10px 10px 10px grey;
   background-image: linear-gradient(to right, white, lightblue);
-
 }
 /* ABOUT----------------------------------------------------------- */
 .main_about{
@@ -205,8 +161,6 @@ body{
   border-radius: 20%;
   
 }
-  
-
 .nav-item{
   border-bottom: 2px solid;
   margin-bottom: 10px;
@@ -217,7 +171,6 @@ body{
   background-color: aqua;
 }
 @media screen and (min-width: 768px) {
-  
   .video{
     width: 600px;
     height: 450px;
@@ -228,9 +181,7 @@ body{
     border-radius: 20%;
     
   }
- 
 }
-
 /* CONTAC ------------------------------------------------------- */
 .contact_main{
   display: grid;
@@ -395,6 +346,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  
 }
 #home img{
   width: auto;
