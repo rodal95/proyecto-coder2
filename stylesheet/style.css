@@ -201,6 +201,7 @@ body{
   display: grid;
   justify-content: center;
   align-items:center ;
+}
 
 }.contact_form h2{
   text-align: center;
@@ -340,7 +341,7 @@ body{
   margin-top:-5px;
     margin-bottom: 500px;
   }
-}
+
 #home{
   margin-bottom: 500px;
   display: flex;
