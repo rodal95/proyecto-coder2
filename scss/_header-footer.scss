@@ -1,0 +1,68 @@
+@import "variables";
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-image: linear-gradient(to right, $color2, $color1);
+    padding: 0.5rem 1rem;
+    z-index: 999;
+    box-shadow: 0px 1px 0px rgb(17, 16, 16);
+    border-radius: 10px;
+    .nav-item{
+        border-bottom: 2px solid;
+        margin-bottom: 10px;
+        box-shadow: 1px 0px;
+        border-radius: 20%;
+      }
+    .nav-item:hover{
+        background-color: aqua;
+    }
+    img{
+        width: 50px;
+        border-radius: 50%;
+    }
+}
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 5px 5px 10px black;
+    margin: 0px 0px 0px 0px;
+    padding-bottom: 0px;
+    width: 100%;
+    bottom: 0;
+    position:fixrelativeed;
+    .container_redes{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        img{
+            width: 50px;
+            margin-left: 50px;
+        }
+        img:hover{
+            transform: scale(1.5);
+            transition: 1s;
+        }
+    }
+    .politicas {
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            li{
+            list-style: none;
+            }
+        }
+    }
+
+}
