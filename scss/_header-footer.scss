@@ -16,10 +16,10 @@ header{
         margin-bottom: 10px;
         box-shadow: 1px 0px;
         border-radius: 20%;
-      }
-    .nav-item:hover{
+    &:hover{
         background-color: aqua;
     }
+}
     img{
         width: 50px;
         border-radius: 50%;
@@ -48,11 +48,12 @@ footer{
         img{
             width: 50px;
             margin-left: 50px;
-        }
-        img:hover{
+        
+        &:hover{
             transform: scale(1.5);
             transition: 1s;
         }
+    }
     }
     .politicas {
         ul{

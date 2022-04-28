@@ -27,9 +27,9 @@
       height: 300px;
       border-radius: 20%;
       box-shadow: 0px 1px 1px grey; }
-    .index_main .carousel img:hover {
-      transform: scale(1.1);
-      transition: 0.5s; }
+      .index_main .carousel img:hover {
+        transform: scale(1.1);
+        transition: 0.5s; }
 
 header {
   display: flex;
@@ -47,8 +47,8 @@ header {
     margin-bottom: 10px;
     box-shadow: 1px 0px;
     border-radius: 20%; }
-  header .nav-item:hover {
-    background-color: aqua; }
+    header .nav-item:hover {
+      background-color: aqua; }
   header img {
     width: 50px;
     border-radius: 50%; }
@@ -70,9 +70,9 @@ footer {
     footer .container_redes img {
       width: 50px;
       margin-left: 50px; }
-    footer .container_redes img:hover {
-      transform: scale(1.5);
-      transition: 1s; }
+      footer .container_redes img:hover {
+        transform: scale(1.5);
+        transition: 1s; }
   footer .politicas ul {
     display: flex;
     flex-direction: row;
@@ -101,9 +101,9 @@ footer {
       height: 100%;
       object-fit: cover;
       border-radius: 20px; }
-    .galery_fotos .galery_section img:hover {
-      transform: scale(1.1);
-      transition: 1s; }
+      .galery_fotos .galery_section img:hover {
+        transform: scale(1.1);
+        transition: 1s; }
     .galery_fotos .galery_section .galery_titulo {
       grid-area: titulo;
       text-align: center; }
