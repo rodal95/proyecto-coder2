@@ -1,0 +1,12 @@
+$tipos: (
+    tipo1:blue,
+    tipo2:red,
+    tipo3:yellow
+);
+
+@each $tipo, $color in $tipos {
+    .index_#{$tipo}{
+        color:#{$color};
+    }
+    
+}

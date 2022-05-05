@@ -12,7 +12,9 @@
 @import "contacto";
 @import "tienda";
 @import "variables";
-
+@import "maps";
+@import "extends";
+@import "mixin";
 body{
     background-image: radial-gradient($color1,$color2);
     align-items: center;

@@ -210,6 +210,34 @@ footer {
   .main_tienda #contact {
     margin-bottom: 500px; }
 
+.index_tipo1 {
+  color: blue; }
+
+.index_tipo2 {
+  color: red; }
+
+.index_tipo3 {
+  color: yellow; }
+
+.btn, .btn-enviar, .btn-limpiar {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
+
+.btn-enviar:hover {
+  background-color: coral; }
+
+.box_mix {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
 body {
   background-image: radial-gradient(lightblue, white);
   align-items: center; }
