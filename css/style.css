@@ -94,7 +94,8 @@ footer {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 10px 10px 10px grey;
-  background-image: linear-gradient(to right, white, lightblue); }
+  background-image: linear-gradient(to right, white, lightblue);
+  border-radius: 20px; }
   .galery_fotos .galery_section {
     min-height: 100px;
     margin: 10px 10px;
@@ -170,7 +171,8 @@ footer {
   display: grid;
   justify-content: center;
   align-items: center;
-  padding: 15px; }
+  padding: 15px;
+  border-radius: 20px; }
   .contact_main form {
     display: grid;
     justify-content: center;
@@ -203,7 +205,8 @@ footer {
   box-shadow: 0px 0.5px 10px grey;
   background-image: linear-gradient(to right, white, lightblue);
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  border-radius: 20px; }
   .main_tienda #home {
     margin-bottom: 500px;
     flex-direction: column; }
@@ -215,7 +218,8 @@ footer {
       flex-direction: column;
       align-content: center;
       justify-content: space-between;
-      width: auto; }
+      width: auto;
+      border-radius: 10px; }
       @media screen and (min-width: 768px) {
         .main_tienda #home .cartas {
           display: flex;
