@@ -16,7 +16,7 @@
 @import "extends";
 @import "mixin";
 body{
-    background-image: radial-gradient($color1,$color2);
+    background-image: linear-gradient(to right,lightblue, aqua);
     align-items: center;
     .container_mediosdepago {
         display: flex;

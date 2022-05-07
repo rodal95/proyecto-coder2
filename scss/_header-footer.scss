@@ -11,13 +11,13 @@ header{
     z-index: 999;
     box-shadow: 0px 1px 0px rgb(17, 16, 16);
     border-radius: 10px;
+    margin-bottom: 20px;
     .nav-item{
-        border-bottom: 2px solid;
+        margin-left: 10px;
         margin-bottom: 10px;
-        box-shadow: 1px 0px;
         border-radius: 20%;
     &:hover{
-        background-color: aqua;
+        background-color: rgb(157, 168, 168);
     }
 }
     img{
@@ -26,21 +26,17 @@ header{
     }
 }
 
-
-
-
-
-
 footer{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     box-shadow: 5px 5px 10px black;
-    margin: 0px 0px 0px 0px;
-    padding-bottom: 0px;
+    padding-top: 10px;
     width: 100%;
     bottom: 0;
     position:fixrelativeed;
+    background-image: linear-gradient(to right, $color2, $color1);
+    border-radius: 10px;
     .container_redes{
         display: flex;
         flex-direction: row;
@@ -56,6 +52,7 @@ footer{
     }
     }
     .politicas {
+        margin-top: 10px;
         ul{
             display: flex;
             flex-direction: row;
