@@ -15,8 +15,36 @@
   border-radius: 10px;
   margin-left: auto;
   margin-right: auto; }
+  .index_main .containerindex {
+    display: flex;
+    flex-direction: column; }
+  .index_main .fotograf {
+    grid-area: foto;
+    display: flex;
+    justify-content: flex-end; }
+  .index_main img {
+    width: 250px;
+    border-radius: 20px;
+    height: 250px; }
   .index_main p {
     text-align: justify; }
+  .index_main .index_tipo1 {
+    grid-area: parrafo1;
+    justify-content: center;
+    align-content: center; }
+  .index_main .index_tipo2 {
+    grid-area: parrafo2; }
+  .index_main .index_tipo3 {
+    grid-area: parrafo3; }
+  @media screen and (min-width: 768px) {
+    .index_main img {
+      width: 300px;
+      height: 300px; }
+    .index_main .containerindex {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1/2fr 1fr;
+      grid-template-areas: "parrafo1 foto" "parrafo2 parrafo2" "parrafo3 parrafo3"; } }
   .index_main .carousel {
     margin: auto;
     padding: 2rem 2rem;

@@ -9,8 +9,52 @@
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    .containerindex{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .fotograf{
+        grid-area: foto;
+        display: flex;
+        justify-content: flex-end;
+    }
+    img{
+        
+        width: 250px;
+        border-radius: 20px;
+        height: 250px;
+    }
     p{
         text-align: justify;
+        
+    }
+   .index_tipo1{
+        grid-area: parrafo1;
+        justify-content: center;
+        align-content: center;
+    }
+    .index_tipo2{
+        grid-area: parrafo2;
+    }
+    .index_tipo3{
+        grid-area: parrafo3;
+    }
+    @media screen and (min-width: 768px){
+        img{
+            width: 300px;
+            height: 300px;
+        }
+        .containerindex{
+            display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1/2fr 1fr;
+        grid-template-areas: 
+        "parrafo1 foto"
+        "parrafo2 parrafo2"
+        "parrafo3 parrafo3";
+        }
+        
     }
     .carousel {
         margin: auto;
