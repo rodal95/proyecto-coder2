@@ -1,4 +1,6 @@
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&display=swap');
+@import "header-footer";
 .index_main{
     width: 80%;
     height: 80%;
@@ -9,52 +11,62 @@
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    .containerindex{
+    .fotoindex{
+        display: none;
+    }
+    h1{
+        color: blue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .containerparrafos{
         display: flex;
         flex-direction: column;
-        
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .tarjeta{
+            width:100%;
+            height: 100%;
+            border: 10px solid black;
+            border-radius: 20px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        p{
+            font-family: 'Anton', sans-serif;
+        }
     }
-    .fotograf{
-        grid-area: foto;
-        display: flex;
-        justify-content: flex-end;
-    }
-    img{
-        
-        width: 250px;
-        border-radius: 20px;
-        height: 250px;
-    }
-    p{
-        text-align: justify;
-        
-    }
-   .index_tipo1{
-        grid-area: parrafo1;
-        justify-content: center;
-        align-content: center;
-    }
-    .index_tipo2{
-        grid-area: parrafo2;
-    }
-    .index_tipo3{
-        grid-area: parrafo3;
-    }
-    @media screen and (min-width: 768px){
+   @media screen and (min-width: 768px){
         img{
-            width: 300px;
-            height: 300px;
+            width: 450px;
+            height: 450px;
+            align-items: center;
+            justify-items: center;
+            border-radius: 20px;
         }
-        .containerindex{
-            display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1/2fr 1fr;
-        grid-template-areas: 
-        "parrafo1 foto"
-        "parrafo2 parrafo2"
-        "parrafo3 parrafo3";
+        .containerparrafos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .tarjeta{
+                width: 50%;
+                height: 50%;
+                border: 10px solid black;
+                border-radius: 20px;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+            .fotoindex{
+                width:50%;
+                height: 50%;
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                margin-bottom: 10px;
+            }
         }
-        
+       
     }
     .carousel {
         margin: auto;

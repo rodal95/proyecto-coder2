@@ -1,4 +1,6 @@
 @import "variables";
+@import "header-footer";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&display=swap');
 .main_about{
     width: 80%;
     height: 80%;
@@ -8,8 +10,13 @@
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
+    h2{
+        font-family: 'Anton', sans-serif;
+    }
     h3{
         text-align: center;
+        font-family: 'Anton', sans-serif;
+        
     }
     .container{
         div{
@@ -22,7 +29,9 @@
             font-size: 15px;
             margin-bottom: 10px;
             font-size: 15px;
-            font-family:'Courier New', Courier, monospace ;
+            font-family: 'Indie Flower', cursive;
+            font-size: 20px;
+            
         }
     }
     img{

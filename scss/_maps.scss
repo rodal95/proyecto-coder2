@@ -1,7 +1,7 @@
 $tipos: (
     tipo1:blue,
-    tipo2:red,
-    tipo3:green
+    tipo2:blue,
+    tipo3:blue
 );
 
 @each $tipo, $color in $tipos {
