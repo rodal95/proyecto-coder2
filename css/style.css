@@ -89,10 +89,9 @@ footer {
   .index_main .containerparrafos {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around; }
+    flex-wrap: wrap; }
     .index_main .containerparrafos .tarjeta {
-      width: 100%;
+      width: 60%;
       height: 100%;
       border: 10px solid black;
       border-radius: 20px;
