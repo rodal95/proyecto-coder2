@@ -43,14 +43,15 @@ header {
 footer {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   justify-content: space-around;
   box-shadow: 5px 5px 10px black;
   padding-top: 10px;
   width: 100%;
   bottom: 0;
-  position: fixrelativeed;
   background-image: linear-gradient(to right, white, lightblue);
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-bottom: -100px; }
   footer .container_redes {
     display: flex;
     flex-direction: row;
@@ -178,14 +179,15 @@ header {
 footer {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   justify-content: space-around;
   box-shadow: 5px 5px 10px black;
   padding-top: 10px;
   width: 100%;
   bottom: 0;
-  position: fixrelativeed;
   background-image: linear-gradient(to right, white, lightblue);
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-bottom: -100px; }
   footer .container_redes {
     display: flex;
     flex-direction: row;
@@ -273,14 +275,15 @@ header {
 footer {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   justify-content: space-around;
   box-shadow: 5px 5px 10px black;
   padding-top: 10px;
   width: 100%;
   bottom: 0;
-  position: fixrelativeed;
   background-image: linear-gradient(to right, white, lightblue);
-  border-radius: 10px; }
+  border-radius: 10px;
+  margin-bottom: -100px; }
   footer .container_redes {
     display: flex;
     flex-direction: row;
@@ -383,7 +386,7 @@ footer {
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 80%;
+  height: 100%;
   box-shadow: 0px 0.5px 10px grey;
   background-image: linear-gradient(to right, white, lightblue);
   margin-left: auto;
@@ -424,7 +427,7 @@ footer {
   .main_tienda #profile {
     margin-bottom: 500px; }
   .main_tienda #contact {
-    margin-bottom: 500px; }
+    margin-bottom: 800px; }
 
 .index_tipo1 {
   color: blue; }
