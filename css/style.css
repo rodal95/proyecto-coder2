@@ -7,7 +7,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth; }
 
 header {
@@ -19,7 +18,7 @@ header {
   background-image: linear-gradient(to right, white, lightblue);
   padding: 0.5rem 1rem;
   z-index: 999;
-  box-shadow: 0px 1px 0px #111010;
+  box-shadow: 0px 1px 0px black;
   border-radius: 10px;
   margin-bottom: 20px; }
   header img {
@@ -30,7 +29,7 @@ header {
     margin-bottom: 10px;
     border-radius: 20%; }
     header .nav-item:hover {
-      background-color: #9da8a8; }
+      background-color: lightblue; }
     header .nav-item a {
       font-family: 'Indie Flower', cursive;
       color: blue;
@@ -42,20 +41,26 @@ header {
 
 footer {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
   box-shadow: 5px 5px 10px black;
   padding-top: 10px;
   width: 100%;
   bottom: 0;
   background-image: linear-gradient(to right, white, lightblue);
   border-radius: 10px;
-  margin-bottom: -100px; }
+  margin-top: 20px;
+  margin-bottom: -100px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px; }
   footer .container_redes {
     display: flex;
-    flex-direction: row;
-    justify-content: center; }
+    flex-direction: column; }
+    footer .container_redes div {
+      display: flex;
+      justify-content: center; }
     footer .container_redes img {
       width: 50px;
       margin-left: 50px; }
@@ -63,24 +68,38 @@ footer {
         transform: scale(1.5);
         transition: 1s; }
   footer .politicas {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex; }
     footer .politicas ul {
       display: flex;
-      flex-direction: row;
-      justify-content: space-around; }
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
       footer .politicas ul li {
         list-style: none; }
+  footer .mediosdepago {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    footer .mediosdepago img {
+      width: 50px;
+      border-radius: 50%; }
+    footer .mediosdepago img:hover {
+      transform: scale(1.2);
+      transition: 1s; }
 
 .index_main {
   width: 80%;
   height: 80%;
-  box-shadow: 01px 0.5px 10px grey;
+  box-shadow: 10px 10px 10px grey;
   background-image: linear-gradient(to right, white, lightblue);
   padding: 10px 10px 10px;
   padding-bottom: 200px;
   border-radius: 10px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  max-width: 1240px; }
   .index_main .fotoindex {
     display: none; }
   .index_main h1 {
@@ -91,7 +110,7 @@ footer {
     flex-direction: column;
     flex-wrap: wrap; }
     .index_main .containerparrafos .tarjeta {
-      width: 60%;
+      width: 100%;
       height: 100%;
       border: 10px solid black;
       border-radius: 20px;
@@ -102,34 +121,27 @@ footer {
   @media screen and (min-width: 768px) {
     .index_main img {
       width: 450px;
-      height: 450px;
-      align-items: center;
-      justify-items: center;
+      height: 800px;
       border-radius: 20px; }
     .index_main .containerparrafos {
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-around; }
+      justify-content: space-evenly; }
       .index_main .containerparrafos .tarjeta {
-        width: 50%;
-        height: 50%;
+        width: 300px;
+        height: 450px;
         border: 10px solid black;
         border-radius: 20px;
         padding: 10px;
         margin-bottom: 10px; }
       .index_main .containerparrafos .fotoindex {
-        width: 50%;
-        height: 50%;
         display: flex;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
         margin-bottom: 10px; } }
   .index_main .carousel {
     margin: auto;
     padding: 2rem 2rem;
-    max-width: 600px;
+    max-width: 950px;
+    max-height: 700px;
     text-align: center;
     background-color: var(--carousel-bg-color);
     overflow-x: hidden; }
@@ -142,9 +154,6 @@ footer {
         transform: scale(1.1);
         transition: 0.5s; }
 
-body {
-  background-color: black; }
-
 header {
   display: flex;
   justify-content: space-between;
@@ -154,7 +163,7 @@ header {
   background-image: linear-gradient(to right, white, lightblue);
   padding: 0.5rem 1rem;
   z-index: 999;
-  box-shadow: 0px 1px 0px #111010;
+  box-shadow: 0px 1px 0px black;
   border-radius: 10px;
   margin-bottom: 20px; }
   header img {
@@ -165,7 +174,7 @@ header {
     margin-bottom: 10px;
     border-radius: 20%; }
     header .nav-item:hover {
-      background-color: #9da8a8; }
+      background-color: lightblue; }
     header .nav-item a {
       font-family: 'Indie Flower', cursive;
       color: blue;
@@ -177,20 +186,26 @@ header {
 
 footer {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
   box-shadow: 5px 5px 10px black;
   padding-top: 10px;
   width: 100%;
   bottom: 0;
   background-image: linear-gradient(to right, white, lightblue);
   border-radius: 10px;
-  margin-bottom: -100px; }
+  margin-top: 20px;
+  margin-bottom: -100px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px; }
   footer .container_redes {
     display: flex;
-    flex-direction: row;
-    justify-content: center; }
+    flex-direction: column; }
+    footer .container_redes div {
+      display: flex;
+      justify-content: center; }
     footer .container_redes img {
       width: 50px;
       margin-left: 50px; }
@@ -198,13 +213,26 @@ footer {
         transform: scale(1.5);
         transition: 1s; }
   footer .politicas {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex; }
     footer .politicas ul {
       display: flex;
-      flex-direction: row;
-      justify-content: space-around; }
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
       footer .politicas ul li {
         list-style: none; }
+  footer .mediosdepago {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    footer .mediosdepago img {
+      width: 50px;
+      border-radius: 50%; }
+    footer .mediosdepago img:hover {
+      transform: scale(1.2);
+      transition: 1s; }
 
 .galery_fotos {
   width: 80%;
@@ -250,7 +278,7 @@ header {
   background-image: linear-gradient(to right, white, lightblue);
   padding: 0.5rem 1rem;
   z-index: 999;
-  box-shadow: 0px 1px 0px #111010;
+  box-shadow: 0px 1px 0px black;
   border-radius: 10px;
   margin-bottom: 20px; }
   header img {
@@ -261,7 +289,7 @@ header {
     margin-bottom: 10px;
     border-radius: 20%; }
     header .nav-item:hover {
-      background-color: #9da8a8; }
+      background-color: lightblue; }
     header .nav-item a {
       font-family: 'Indie Flower', cursive;
       color: blue;
@@ -273,20 +301,26 @@ header {
 
 footer {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
   box-shadow: 5px 5px 10px black;
   padding-top: 10px;
   width: 100%;
   bottom: 0;
   background-image: linear-gradient(to right, white, lightblue);
   border-radius: 10px;
-  margin-bottom: -100px; }
+  margin-top: 20px;
+  margin-bottom: -100px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px; }
   footer .container_redes {
     display: flex;
-    flex-direction: row;
-    justify-content: center; }
+    flex-direction: column; }
+    footer .container_redes div {
+      display: flex;
+      justify-content: center; }
     footer .container_redes img {
       width: 50px;
       margin-left: 50px; }
@@ -294,18 +328,31 @@ footer {
         transform: scale(1.5);
         transition: 1s; }
   footer .politicas {
-    margin-top: 10px; }
+    margin-top: 10px;
+    display: flex; }
     footer .politicas ul {
       display: flex;
-      flex-direction: row;
-      justify-content: space-around; }
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
       footer .politicas ul li {
         list-style: none; }
+  footer .mediosdepago {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    footer .mediosdepago img {
+      width: 50px;
+      border-radius: 50%; }
+    footer .mediosdepago img:hover {
+      transform: scale(1.2);
+      transition: 1s; }
 
 .main_about {
   width: 80%;
   height: 80%;
-  box-shadow: 0px 0.5px 10px white;
+  box-shadow: 10px 10px 10px grey;
   background-image: linear-gradient(to right, white, lightblue);
   padding: 10px 10px 10px;
   border-radius: 10px;
@@ -348,7 +395,7 @@ footer {
 .contact_main {
   width: 80%;
   height: 80%;
-  box-shadow: 0px 0.5px 10px grey;
+  box-shadow: 10px 10px 10px grey;
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to right, white, lightblue);
@@ -459,13 +506,3 @@ footer {
 body {
   background-image: linear-gradient(to right, lightblue, aqua);
   align-items: center; }
-  body .container_mediosdepago {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end; }
-    body .container_mediosdepago img {
-      width: 50px;
-      border-radius: 50%; }
-    body .container_mediosdepago img:hover {
-      transform: scale(1.2);
-      transition: 1s; }
