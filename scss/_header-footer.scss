@@ -45,7 +45,6 @@ footer{
     box-shadow: 5px 5px 10px black;
     padding-top: 10px;
     width: 100%;
-    position: sticky;
     background-image: linear-gradient(to right, $color2, $color1);
     border-radius: 10px;
     margin-top: 20px;
@@ -54,6 +53,8 @@ footer{
     .container_redes{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         div{
             display: flex;
             justify-content: center;
@@ -70,6 +71,8 @@ footer{
     .politicas {
         margin-top: 10px;
         display: flex;
+        justify-content: center;
+        align-items: center;
         ul{
             display: flex;
             flex-direction: column;
@@ -89,10 +92,12 @@ footer{
         div{
             display: flex;
             flex-direction: row;
+            justify-content: space-between;
         }
         img{
             width: 50px;
             border-radius: 50%;
+            margin-left: 40px;
         }
         img:hover{
             transform: scale(1.2);
