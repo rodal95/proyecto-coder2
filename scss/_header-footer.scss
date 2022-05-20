@@ -45,11 +45,10 @@ footer{
     box-shadow: 5px 5px 10px black;
     padding-top: 10px;
     width: 100%;
-    bottom: 0;
+    position: sticky;
     background-image: linear-gradient(to right, $color2, $color1);
     border-radius: 10px;
     margin-top: 20px;
-    margin-bottom: -100px;
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
     .container_redes{
@@ -87,7 +86,10 @@ footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
+        div{
+            display: flex;
+            flex-direction: row;
+        }
         img{
             width: 50px;
             border-radius: 50%;
