@@ -53,6 +53,12 @@ footer {
   margin-top: 20px;
   font-family: 'Indie Flower', cursive;
   font-size: 25px; }
+  footer a {
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-decoration: blue;
+    font-size: 25px; }
   footer .container_redes {
     display: flex;
     flex-direction: column;
@@ -211,6 +217,12 @@ footer {
   margin-top: 20px;
   font-family: 'Indie Flower', cursive;
   font-size: 25px; }
+  footer a {
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-decoration: blue;
+    font-size: 25px; }
   footer .container_redes {
     display: flex;
     flex-direction: column;
@@ -340,6 +352,12 @@ footer {
   margin-top: 20px;
   font-family: 'Indie Flower', cursive;
   font-size: 25px; }
+  footer a {
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-decoration: blue;
+    font-size: 25px; }
   footer .container_redes {
     display: flex;
     flex-direction: column;
